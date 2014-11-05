@@ -1,15 +1,23 @@
-import ij.plugin.filter.PlugInFilter;
-import java.awt.Color;
-import java.util.*;
-import java.io.*;
-import java.lang.Float;
-import ij.*;
-import ij.gui.*;
-import ij.io.*;
-import ij.process.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.gui.GenericDialog;
+import ij.io.SaveDialog;
+import ij.measure.Measurements;
+import ij.measure.ResultsTable;
 import ij.plugin.filter.ParticleAnalyzer;
-import ij.plugin.filter.Analyzer;
-import ij.measure.*;
+import ij.plugin.filter.PlugInFilter;
+import ij.process.ByteProcessor;
+import ij.process.ImageProcessor;
+
+import java.awt.Color;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
  
 
 /**
