@@ -24,6 +24,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/MTrack2</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/fiji/MTrack2/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/MTrack2/</url>
