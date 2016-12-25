@@ -20,6 +20,48 @@
 	<url>http://imagej.net/MTrack2</url>
 	<inceptionYear>2003</inceptionYear>
 
+	<developers>
+		<developer>
+			<id>chalkie666</id>
+			<name>Daniel James White</name>
+			<url>http://imagej.net/User:White</url>
+			<roles>
+				<role>reviewer</role>
+				<role>support</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Nico Stuurman</name>
+			<url>http://imagej.net/User:Nico</url>
+			<roles><role>founder</role></roles>
+			<properties><id>nicost</id></properties>
+		</contributor>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<roles><role>founder</role></roles>
+			<properties><id>dscho</id></properties>
+		</contributor>
+		<contributor>
+			<name>Chris Elliott</name>
+		</contributor>
+		<contributor>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<properties><id>hinerm</id></properties>
+		</contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/MTrack2</connection>
 		<developerConnection>scm:git:git@github.com:fiji/MTrack2</developerConnection>
