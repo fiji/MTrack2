@@ -17,6 +17,8 @@
 
 	<name>plugins/MTrack2_.jar</name>
 	<description></description>
+	<url>http://imagej.net/MTrack2</url>
+	<inceptionYear>2003</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/fiji/MTrack2</connection>
