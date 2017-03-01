@@ -92,8 +92,8 @@
 		<url>https://github.com/fiji/MTrack2/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/MTrack2/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/MTrack2</url>
 	</ciManagement>
 
 	<properties>
