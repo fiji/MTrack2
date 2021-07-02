@@ -89,8 +89,8 @@
 		<url>https://github.com/fiji/MTrack2/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/fiji/MTrack2</url>
+		<system>GitHub Actions</system>
+		<url>https://github.com/fiji/MTrack2/actions</url>
 	</ciManagement>
 
 	<properties>
@@ -99,7 +99,7 @@
 		<license.projectName>Fiji distribution of ImageJ for the life sciences.</license.projectName>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
-		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 	</properties>
 
 	<repositories>
